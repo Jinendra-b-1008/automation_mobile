@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-16T19:08:51 IST" name="Suite" finished-at="2022-09-16T19:10:25 IST" duration-ms="94089">
+    <groups>
+    </groups>
+    <test started-at="2022-09-16T19:08:51 IST" name="Test" finished-at="2022-09-16T19:10:25 IST" duration-ms="94089">
+      <class name="Scripts.Homes">
+        <test-method signature="home()[pri:0, instance:Scripts.Homes@4efc180e]" started-at="2022-09-16T19:09:54 IST" name="home" finished-at="2022-09-16T19:10:25 IST" duration-ms="31539" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Terms & Conditions"}
+  (Session info: chrome=105.0.5195.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'QT-INBG-LT0449', ip: '10.20.15.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4ad8bfca23e735d65e041ebcbeaf95ef, findElement {using=link text, value=Terms & Conditions}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\jinendra.y\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64117}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64117/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ad8bfca23e735d65e041ebcbeaf95ef]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Terms & Conditions"}
+  (Session info: chrome=105.0.5195.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'QT-INBG-LT0449', ip: '10.20.15.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4ad8bfca23e735d65e041ebcbeaf95ef, findElement {using=link text, value=Terms & Conditions}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\jinendra.y\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64117}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64117/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ad8bfca23e735d65e041ebcbeaf95ef
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at POM.Homepom.downlinks1(Homepom.java:123)
+at Scripts.Homes.home(Homes.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+      </class> <!-- Scripts.Homes -->
+      <class name="Scripts.Signup_Script">
+        <test-method signature="sign(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Scripts.Signup_Script@5fbdfdcf]" started-at="2022-09-16T19:09:39 IST" name="sign" data-provider="signup" finished-at="2022-09-16T19:09:54 IST" duration-ms="14987" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jinendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jin@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[J@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[02/02/2022]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[948885589]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Good things ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Hai,Jinendra! Go To SingIn}
+  (Session info: chrome=105.0.5195.125): Hai,Jinendra! Go To SingIn
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'QT-INBG-LT0449', ip: '10.20.15.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96d602391b3835fb5bfee25d42b3bb66, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\jinendra.y\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64076}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64076/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96d602391b3835fb5bfee25d42b3bb66]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Hai,Jinendra! Go To SingIn}
+  (Session info: chrome=105.0.5195.125): Hai,Jinendra! Go To SingIn
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'QT-INBG-LT0449', ip: '10.20.15.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [96d602391b3835fb5bfee25d42b3bb66, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\jinendra.y\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:64076}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64076/devtoo..., se:cdpVersion: 105.0.5195.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96d602391b3835fb5bfee25d42b3bb66
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:432)
+at Scripts.Signup_Script.sign(Signup_Script.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+      </class> <!-- Scripts.Signup_Script -->
+      <class name="Scripts.Signin_Srcipt">
+        <test-method signature="sign(java.lang.String,java.lang.String)[pri:0, instance:Scripts.Signin_Srcipt@2b48a640]" started-at="2022-09-16T19:08:51 IST" name="sign" data-provider="login" finished-at="2022-09-16T19:09:06 IST" duration-ms="14984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jinendra B Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jinendra@1008]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method signature="sign(java.lang.String,java.lang.String)[pri:0, instance:Scripts.Signin_Srcipt@2b48a640]" started-at="2022-09-16T19:09:06 IST" name="sign" data-provider="login" finished-at="2022-09-16T19:09:17 IST" duration-ms="11000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jinu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[93434]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method signature="sign(java.lang.String,java.lang.String)[pri:0, instance:Scripts.Signin_Srcipt@2b48a640]" started-at="2022-09-16T19:09:17 IST" name="sign" data-provider="login" finished-at="2022-09-16T19:09:27 IST" duration-ms="10124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jinendraquali@1234 $]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Quali123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+        <test-method signature="sign(java.lang.String,java.lang.String)[pri:0, instance:Scripts.Signin_Srcipt@2b48a640]" started-at="2022-09-16T19:09:27 IST" name="sign" data-provider="login" finished-at="2022-09-16T19:09:39 IST" duration-ms="11385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@123J]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign -->
+      </class> <!-- Scripts.Signin_Srcipt -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
